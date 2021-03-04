@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  font-family: arial;
+}
+
+.collapsableList {
+  list-style: none;
+}
+
+.listItem {
+}
+
+.listItem.listItem--collapsable {
+}
+
+.listItem:before {
+  content: "•";
+}
+.listItem--collapsable:before {
+  content: "▶";
+}
+
+.listItem--open:before {
+  content: "▼";
+}
+
+.listItem__button {
+}
